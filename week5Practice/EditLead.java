@@ -34,7 +34,7 @@ public class EditLead extends Base{
 		company.clear();
 		company.sendKeys(cn);
 		driver.findElement(By.name("submitButton")).click();
-		driver.close();
+		
 }
 }
 
